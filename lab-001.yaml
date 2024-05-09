@@ -1,0 +1,21 @@
+name: lab-001
+platform: node
+blocks:
+  - action: assign
+    name: Assign_1
+    variable: $result
+    value: "\"Hello, World!\""
+variables:
+  - name: result
+    required: false
+    isInput: false
+    isOutput: true
+    level: INTERMEDIATE
+    type:
+      type: any
+    value: '""'
+meta:
+  version: 5
+  description: test
+  layout: flow
+  workerGroup: default
